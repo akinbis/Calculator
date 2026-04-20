@@ -1,44 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
     <title>Calculator</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <main>
-        <div class="Claculator-Container">
-            <div class="calculator-wrapper">
-                <input type="text" readonly>   
-            </div>
-            <div class="button-wrapper">
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button>DEL</button>
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button>+</button>
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>-</button>
-                <button>.</button>
-                <button>0</button>
-                <button>/</button>
-                <button>x</button>
-                <button>RESET</button>
-                <button>=</button>
-            </div>
-
-            
+      <div class="Claculator-Container">
+        <div class="calculator-wrapper">
+          <input type="text" readonly value="0" />
         </div>
+        <div class="button-wrapper">
+          <div class="row">
+            <button class="btn" data-value="7">7</button>
+            <button class="btn" data-value="8">8</button>
+            <button class="btn" data-value="9">9</button>
+            <button class="btn del" data-value="DEL">DEL</button>
+          </div>
+          <div class="row">
+            <button class="btn" data-value="4">4</button>
+            <button class="btn" data-value="5">5</button>
+            <button class="btn" data-value="6">6</button>
+            <button class="btn operator" data-value="+">+</button>
+          </div>
+          <div class="row">
+            <button class="btn" data-value="1">1</button>
+            <button class="btn" data-value="2">2</button>
+            <button class="btn" data-value="3">3</button>
+            <button class="btn operator" data-value="-">-</button>
+          </div>
+          <div class="row">
+            <button class="btn" data-value=".">.</button>
+            <button class="btn" data-value="0">0</button>
+            <button class="btn operator" data-value="/">/</button>
+            <button class="btn operator" data-value="*">x</button>
+          </div>
+          <div class="row">
+            <button class="btn reset" data-value="RESET">RESET</button>
+            <button class="btn equals" data-value="=">=</button>
+          </div>
+        </div>
+      </div>
     </main>
-</body>
-
+  </body>
 </html>
