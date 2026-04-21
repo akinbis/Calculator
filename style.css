@@ -5,6 +5,10 @@
 }
 body {
   background-color: darkslategray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 .calculator-wrapper input {
@@ -27,7 +31,7 @@ body {
   flex-direction: column;
   gap: 10px;
 }
-.Claculator-Container {
+.Calculator-Container {
   background: #16213e;
   border-radius: 16px;
   padding: 24px;
