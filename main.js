@@ -171,7 +171,7 @@ document.addEventListener('keydown', function(e) {
   } else if (['+', '-', '*', '/'].includes(keyName)) {
     setOperator(keyName);
   } else if (keyName === '.') {
-    appendDecimal(keyName)
+    appendDecimal()
   } else if (keyName === 'Enter' || keyName === '=') {
     e.preventDefault(); 
     evaluate();
