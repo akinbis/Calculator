@@ -3,11 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   background-color: darkslategray;
 }
 
-.calculator-wrapper input {
+.calculator-wrapper {
   width: 100%;
   background: #0f3460;
   border: none;
@@ -22,11 +23,24 @@ body {
   outline: none;
   box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.4);
 }
+
+.calculator-wrapper .previous-operand {
+  color: grey;
+  size: 1.5em;
+}
+
+.calculator-wrapper .current-operand {
+  color: #fff;
+  size: 2.5em;
+}
+
+
 .button-wrapper {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
+
 .Claculator-Container {
   background: #16213e;
   border-radius: 16px;
@@ -34,6 +48,7 @@ body {
   width: 340px;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
 }
+
 .row {
   display: flex;
   flex-direction: row;
@@ -50,9 +65,11 @@ body {
   font-size: 1.1rem;
   cursor: pointer;
 }
+
 .btn:hover {
   background-color: aqua;
 }
+
 .btn:active {
   transform: scale(0.94);
   background: #1a6fa8;
@@ -61,14 +78,17 @@ body {
 .btn.del {
   background-color: red;
 }
+
 .btn.reset {
   flex: 3;
   background: #922b21;
   letter-spacing: 1px;
 }
+
 .btn.reset:hover {
   background: #c0392b;
 }
+
 .btn.equals {
   background: #e94560;
 }
