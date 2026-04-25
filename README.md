@@ -3,8 +3,8 @@
 [Start the simulation]
 https://akinbis.github.io/Calculator/
 
-#About the calculator
 
+#About the calculator
 This JavaScript project replicate the behavior of a
 standard calculator. It supports all basic arithmetic operations, including addition, subtraction, multiplication,
 and division, along with features like decimal input and clear/delete functionality.
