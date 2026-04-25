@@ -1,10 +1,10 @@
-## Calculator Simulation 
+# Calculator Simulation 
 
 [Start the simulation]
 https://akinbis.github.io/Calculator/
 
 
-# About the calculator
+## About the calculator
 
 This JavaScript project replicate the behavior of a
 standard calculator. It supports all basic arithmetic operations, including addition, subtraction, multiplication,
@@ -14,7 +14,7 @@ In addition to mouse interaction, the calculator can also be controlled via keyb
 and more user-friendly experience. The interface is simple and responsive, making it easy to use across
 different devices.
 
-# Highlights
+## Highlights
   - Clean User Interface
   - Usage is Self-explanatory
   - Keyboard Support -can be uses with the keyboard
